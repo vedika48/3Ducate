@@ -13,7 +13,7 @@ class _TestScreenState extends State<TestScreen> {
   final AudioRecorderService _recorderService = AudioRecorderService();
   final PythonBackendService _backendService = PythonBackendService();
 
-  List<TestQuestion> _questions = [
+  final List<TestQuestion> _questions = [
     TestQuestion(
       id: 1,
       question: 'Greet the waiter politely',

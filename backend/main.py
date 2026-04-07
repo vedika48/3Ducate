@@ -151,7 +151,13 @@ async def speech_to_text(audio: UploadFile = File(...)):
     result = await speech_service.speech_to_text(audio_data)
     return result
 
-@app.post("/api/text-to-speech")
+from pydantic import BaseModel
+
+class AnalyzeRequest(BaseModel):
+    text: str
+    scenario: str = "cafe"
+
+@app.get("/api/text-to-speech")
 async def text_to_speech(text: str, language: str = 'en'):
     audio_data = await tts_service.text_to_speech(text, language)
     return StreamingResponse(
@@ -160,8 +166,8 @@ async def text_to_speech(text: str, language: str = 'en'):
     )
 
 @app.post("/api/analyze-speech")
-async def analyze_speech(text: str, scenario: str = "cafe"):
-    analysis = nlp_service.analyze_speech(text, scenario)
+async def analyze_speech(request: AnalyzeRequest):
+    analysis = nlp_service.analyze_speech(request.text, request.scenario)
     return analysis
 
 @app.websocket("/ws")

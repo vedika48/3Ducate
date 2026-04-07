@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/flutter_unity_widget.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

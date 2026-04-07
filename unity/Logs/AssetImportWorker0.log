@@ -1,0 +1,638 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 8035 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity projects\Editor\2022.3.62f3\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Desktop/3Ducate/3Ducate/unity
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59285
+Successfully changed project path to: E:/Desktop/3Ducate/3Ducate/unity
+E:/Desktop/3Ducate/3Ducate/unity
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9224]  Target information:
+
+Player connection [9224]  * "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 120641053 [EditorId] 120641053 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EBG62UO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9224]  * "[IP] 10.107.118.146 [Port] 0 [Flags] 2 [Guid] 120641053 [EditorId] 120641053 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EBG62UO) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9224] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9224] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path D:/unity projects/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Desktop/3Ducate/3Ducate/unity/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     4017 MB
+    Driver:   31.0.101.2111
+Initialize mono
+Mono path[0] = 'D:/unity projects/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'D:/unity projects/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity projects/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity projects/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity projects/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019592 seconds.
+- Loaded All Assemblies, in  1.182 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1309 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.652 seconds
+Domain Reload Profiling: 4838ms
+	BeginReloadAssembly (356ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (164ms)
+	LoadAllAssembliesAndSetupDomain (507ms)
+		LoadAssemblies (353ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (500ms)
+			TypeCache.Refresh (495ms)
+				TypeCache.ScanAssembly (432ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (3657ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3463ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1595ms)
+			SetLoadedEditorAssemblies (21ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (25ms)
+			ProcessInitializeOnLoadAttributes (1637ms)
+			ProcessInitializeOnLoadMethodAttributes (185ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.122 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.008 seconds
+Domain Reload Profiling: 3129ms
+	BeginReloadAssembly (602ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (168ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (215ms)
+	LoadAllAssembliesAndSetupDomain (88ms)
+		LoadAssemblies (340ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (73ms)
+			TypeCache.Refresh (68ms)
+				TypeCache.ScanAssembly (36ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (2009ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1176ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (157ms)
+			SetLoadedEditorAssemblies (23ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (782ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (42.6 KB). Loaded Objects now: 480.
+Memory consumption went from 49.8 MB to 49.8 MB.
+Total: 8.754300 ms (FindLiveObjects: 0.077000 ms CreateObjectMapping: 0.007800 ms MarkObjects: 8.527800 ms  DeleteObjects: 0.139000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 168185.196360 seconds.
+  path: Assets/flutter_unity_widget.unity
+  artifactKey: Guid(8051a850efdd6724cb3ef8b0d8098777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/flutter_unity_widget.unity using Guid(8051a850efdd6724cb3ef8b0d8098777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c8ddaf86b634e39a18af82ac39545aa9') in 0.006461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 870.057935 seconds.
+  path: Assets/FlutterUnityIntegration
+  artifactKey: Guid(7a278d82e439173489d1c3c8be08dffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration using Guid(7a278d82e439173489d1c3c8be08dffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b6cf96b9dc7a1d442fc1df93c6fb3bcf') in 0.007605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.200515 seconds.
+  path: Assets/FlutterUnityIntegration/SingletonMonoBehaviour.cs
+  artifactKey: Guid(26f606bd4d23f497fa7b976bf9684caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/SingletonMonoBehaviour.cs using Guid(26f606bd4d23f497fa7b976bf9684caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '79b787d826c641a3def22d3f940cf8e9') in 0.000859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.970210 seconds.
+  path: Assets/FlutterUnityIntegration/UnityMessageManager.cs
+  artifactKey: Guid(d8f0d555a552e429a9e36a2bec4c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/UnityMessageManager.cs using Guid(d8f0d555a552e429a9e36a2bec4c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b238c099a51a9ef35a46c3e38713119f') in 0.001673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.367930 seconds.
+  path: Assets/FlutterUnityIntegration/FlutterUnity.jslib
+  artifactKey: Guid(dfee06415a334a24a12c3846cf2b18a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/FlutterUnity.jslib using Guid(dfee06415a334a24a12c3846cf2b18a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b901c211ce1e32880976daefd0284939') in 0.046325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.361130 seconds.
+  path: Assets/FlutterUnityIntegration/Plugins
+  artifactKey: Guid(c933088c884fa446a9ef6fcc5d4967b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Plugins using Guid(c933088c884fa446a9ef6fcc5d4967b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'c29448045ac2669118aaf9faaac5d96b') in 0.010850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.083614 seconds.
+  path: Assets/FlutterUnityIntegration/README.txt
+  artifactKey: Guid(27e3ba5602e8640efa9213abe9935d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/README.txt using Guid(27e3ba5602e8640efa9213abe9935d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '13f4e983c1e1bdde3cd61fe5c6f4a66d') in 0.003037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.216796 seconds.
+  path: Assets/FlutterUnityIntegration/NativeAPI.cs
+  artifactKey: Guid(a74f0e0f573124897ae786004a599741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/NativeAPI.cs using Guid(a74f0e0f573124897ae786004a599741) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '784a1686fbf8f41963bb9db2ec488d27') in 0.002226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.993084 seconds.
+  path: Assets/FlutterUnityIntegration/link.xml
+  artifactKey: Guid(dffa6b3463c3f4197ba06e68d68f2285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/link.xml using Guid(dffa6b3463c3f4197ba06e68d68f2285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '927684b6ad346ca53f4e39a83a1f369f') in 0.002277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.722190 seconds.
+  path: Assets/FlutterUnityIntegration/Demo
+  artifactKey: Guid(138607dc521ec40199ab65b468c497dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Demo using Guid(138607dc521ec40199ab65b468c497dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b622b0df3775518f580f2a2ea1b67f90') in 0.001767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.964718 seconds.
+  path: Assets/FlutterUnityIntegration/Editor
+  artifactKey: Guid(ce285f5b99c7a4c1387f17e5f6fd9367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Editor using Guid(ce285f5b99c7a4c1387f17e5f6fd9367) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '5147033203e8d5fb84e1d73e19989b0d') in 0.001825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.281012 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet
+  artifactKey: Guid(4c3f323f964d7409b923c39fc511af21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet using Guid(4c3f323f964d7409b923c39fc511af21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '170e205128b85b881e5da05bfe8bd667') in 0.003403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 137.867330 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet/link.xml
+  artifactKey: Guid(a1e81a885816344c4bc3340c0119fb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet/link.xml using Guid(a1e81a885816344c4bc3340c0119fb27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '77c8dbfca905e7eff3e28f7a0053dc83') in 0.003047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008471 seconds.
+  path: Assets/FlutterUnityIntegration/Demo/Rotate.cs
+  artifactKey: Guid(463607cc3fa8d4e6eb8ee6a99700b297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Demo/Rotate.cs using Guid(463607cc3fa8d4e6eb8ee6a99700b297) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '016c92056e33fe353da783b25b5c4ed4') in 0.000971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003165 seconds.
+  path: Assets/FlutterUnityIntegration/Demo/SceneLoader.cs
+  artifactKey: Guid(42390a6695e9d4d4f942a004ce0bd8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Demo/SceneLoader.cs using Guid(42390a6695e9d4d4f942a004ce0bd8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '22da5773fadc09664eb7c8b9ec24b24f') in 0.000876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005291 seconds.
+  path: Assets/FlutterUnityIntegration/Demo/EventSystem.prefab
+  artifactKey: Guid(3594d1ae1a27a44ef9d3d0196cdd08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Demo/EventSystem.prefab using Guid(3594d1ae1a27a44ef9d3d0196cdd08d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3b608334da512d2da69cc25bed98df39') in 0.048959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.002987 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Standalone
+  artifactKey: Guid(88b25391e55c946d2aaba425a98f46a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Standalone using Guid(88b25391e55c946d2aaba425a98f46a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'b8120f61137c1f78d16f1d679e10b415') in 0.001978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007810 seconds.
+  path: Assets/FlutterUnityIntegration/Plugins/iOS/NativeCallProxy.mm
+  artifactKey: Guid(3f676dfd3d6fd4ae49028c89adc526f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Plugins/iOS/NativeCallProxy.mm using Guid(3f676dfd3d6fd4ae49028c89adc526f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '9548f2cedb2487d24a684b2e3906bed6') in 0.002750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003913 seconds.
+  path: Assets/FlutterUnityIntegration/Editor/XCodePostBuild.cs
+  artifactKey: Guid(132db7294ca96475396bb92491a3bf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Editor/XCodePostBuild.cs using Guid(132db7294ca96475396bb92491a3bf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3904688f111a5e53ad8a455f398fba3c') in 0.001032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003879 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet/Assemblies
+  artifactKey: Guid(c47bf4682493249ffb2ba59e043f0dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet/Assemblies using Guid(c47bf4682493249ffb2ba59e043f0dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a8c02f5b5e5bba0c08f6fabd64b095a8') in 0.001030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013126 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll.txt
+  artifactKey: Guid(89390b301c9e44f309833c9abe2e7b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll.txt using Guid(89390b301c9e44f309833c9abe2e7b2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '895daab87e14641b7558cb885afe33f8') in 0.003423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004856 seconds.
+  path: Assets/FlutterUnityIntegration/Editor/SweetShellHelper.cs
+  artifactKey: Guid(035814c9f0f584c2d904bb37a369324c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Editor/SweetShellHelper.cs using Guid(035814c9f0f584c2d904bb37a369324c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'a2bfba2d325d64c177b2317bbf4cf2c5') in 0.001050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003267 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/AOT
+  artifactKey: Guid(c4da6fec1bc5747adbe081a531296eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/AOT using Guid(c4da6fec1bc5747adbe081a531296eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '1d2537cb49a3f1785140d9aabc940db6') in 0.000865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004271 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll.txt
+  artifactKey: Guid(dfd68a2fa05644f769fc760d65594879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll.txt using Guid(dfd68a2fa05644f769fc760d65594879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '86c701e6949373b0a5bc0c6a0dd9a9d7') in 0.001907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003461 seconds.
+  path: Assets/FlutterUnityIntegration/Editor/Build.cs
+  artifactKey: Guid(013ed8e117a3e4b12aec7a1e43a2d38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Editor/Build.cs using Guid(013ed8e117a3e4b12aec7a1e43a2d38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'd015cdcf3a5a3b8e543e0438ad09cabc') in 0.001770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003953 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.XML
+  artifactKey: Guid(8b65f941004d84448bf1108419732aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.XML using Guid(8b65f941004d84448bf1108419732aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'bd32436d8460ba05c77d90c1bf4dea5b') in 0.001832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004352 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML
+  artifactKey: Guid(0e7979cc6e0f342bfb718e06cbcd84f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML using Guid(0e7979cc6e0f342bfb718e06cbcd84f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7654add4d6a03de99ce7ff0bd6dbcdbb') in 0.002415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004223 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll
+  artifactKey: Guid(a2594cf7d48856c44a6a855a987483d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll using Guid(a2594cf7d48856c44a6a855a987483d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3450ad65d22896f2409e371927535549') in 0.001491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FlutterUnityIntegration/Plugins/iOS
+  artifactKey: Guid(92f5869add8134466b0b7cff3ac1b558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Plugins/iOS using Guid(92f5869add8134466b0b7cff3ac1b558) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '89015bb702ae57a5bfc262746a04eaca') in 0.001666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/FlutterUnityIntegration/Demo/Scenes/SampleScene.unity
+  artifactKey: Guid(1de23c438491149ecacfae4362bfe5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Demo/Scenes/SampleScene.unity using Guid(1de23c438491149ecacfae4362bfe5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '7f06d591bfd021e755150426bcec3808') in 0.008227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FlutterUnityIntegration/Demo/Scenes/scene_2.unity
+  artifactKey: Guid(78e45f16305ad48beb12bee6b4f6e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Demo/Scenes/scene_2.unity using Guid(78e45f16305ad48beb12bee6b4f6e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '059bec0a1df4518827cd009dde163512') in 0.001118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001868 seconds.
+  path: Assets/FlutterUnityIntegration/Demo/Scenes
+  artifactKey: Guid(ebfb8b6035f5d4ebcb169cc3f905cfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Demo/Scenes using Guid(ebfb8b6035f5d4ebcb169cc3f905cfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '05f7ebc6c4ef8eb6729cfe9c76e4d508') in 0.001636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001636 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Windows
+  artifactKey: Guid(d473ed1ceeaae48c4b9e23cf2ccb07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Windows using Guid(d473ed1ceeaae48c4b9e23cf2ccb07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '051a340c80b0a682a091478a8ffc6fa5') in 0.001117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003536 seconds.
+  path: Assets/FlutterUnityIntegration/Demo/Canvas_cool.prefab
+  artifactKey: Guid(fb9e458338d464183be39dc9376b06ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Demo/Canvas_cool.prefab using Guid(fb9e458338d464183be39dc9376b06ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '065060f77cf23f07ab213ec0b7181a36') in 0.002897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.004623 seconds.
+  path: Assets/FlutterUnityIntegration/Demo/Scenes/NativeScene.unity
+  artifactKey: Guid(93c501e08eb4d4ac2a924b592f00449b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Demo/Scenes/NativeScene.unity using Guid(93c501e08eb4d4ac2a924b592f00449b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: 'f37b80d4a6f1d573fdd0027261c8e7ae') in 0.000619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005817 seconds.
+  path: Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.XML
+  artifactKey: Guid(ed833ea3d720e48a3bfccc01167343c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.XML using Guid(ed833ea3d720e48a3bfccc01167343c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '942f6a8fd66bcf15cb6d9f45029fd93e') in 0.001329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003687 seconds.
+  path: Assets/FlutterUnityIntegration/Demo/GameManager.cs
+  artifactKey: Guid(25e2e19e6317942ae86eed73cec6b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Demo/GameManager.cs using Guid(25e2e19e6317942ae86eed73cec6b312) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '3585dc3fbfb2d91efc1db05e98280df4') in 0.000591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008657 seconds.
+  path: Assets/FlutterUnityIntegration/Plugins/iOS/NativeCallProxy.h
+  artifactKey: Guid(e5a113ae9e7ae44ffbf2067558023a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FlutterUnityIntegration/Plugins/iOS/NativeCallProxy.h using Guid(e5a113ae9e7ae44ffbf2067558023a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8a710b4c60a0658996dd4a31722b9da7') in 0.001071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003373 seconds.
+  path: Assets/Editor/CoffeeShopGenerator.cs
+  artifactKey: Guid(1e477f426c0f7b548899f3524d80b2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor/CoffeeShopGenerator.cs using Guid(1e477f426c0f7b548899f3524d80b2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+ -> (artifact id: '8124023cfdd766b670f3f905693ccc41') in 0.000600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.033 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.090 seconds
+Domain Reload Profiling: 3128ms
+	BeginReloadAssembly (494ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (123ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (152ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (563ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (2095ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1552ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (1151ms)
+			ProcessInitializeOnLoadMethodAttributes (266ms)
+			AfterProcessingInitializeOnLoad (31ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (109ms)
+Refreshing native plugins compatible for Editor in 1.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (18.9 KB). Loaded Objects now: 487.
+Memory consumption went from 49.4 MB to 49.4 MB.
+Total: 12.753900 ms (FindLiveObjects: 0.088500 ms CreateObjectMapping: 0.010000 ms MarkObjects: 12.593100 ms  DeleteObjects: 0.060100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Build.cs: c1040d1ad4bbace8bcc1240b8ef576c3 -> 
+  custom:scripting/monoscript/fileName/SingletonMonoBehaviour.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0c84024abb0c5bb5581cc401e635fda5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: a7afd7832695d8593c943267e3f619f8 -> ff71be97f8e18bd7e0d70a093f44bf49
+  custom:scripting/precompiled-assembly-types:Newtonsoft.Json: 3ed19e7ab796b511033e888e00c3c311 -> 
+  custom:scripting/monoscript/fileName/SweetShellHelper.cs: f749d5d3942646db650eb9b8c377663c -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NativeAPI.cs: 31710c6a5998a320daf3e0fbe72232eb -> 
+  custom:scripting/monoscript/fileName/UnityMessageManager.cs: fbd84261ec9376da6652038bf884eab6 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 487.
+Memory consumption went from 49.5 MB to 49.5 MB.
+Total: 5.391900 ms (FindLiveObjects: 0.051000 ms CreateObjectMapping: 0.006000 ms MarkObjects: 5.310400 ms  DeleteObjects: 0.023200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Build.cs: c1040d1ad4bbace8bcc1240b8ef576c3 -> 
+  custom:scripting/monoscript/fileName/SingletonMonoBehaviour.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 0c84024abb0c5bb5581cc401e635fda5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: a7afd7832695d8593c943267e3f619f8 -> ff71be97f8e18bd7e0d70a093f44bf49
+  custom:scripting/precompiled-assembly-types:Newtonsoft.Json: 3ed19e7ab796b511033e888e00c3c311 -> 
+  custom:scripting/monoscript/fileName/SweetShellHelper.cs: f749d5d3942646db650eb9b8c377663c -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NativeAPI.cs: 31710c6a5998a320daf3e0fbe72232eb -> 
+  custom:scripting/monoscript/fileName/UnityMessageManager.cs: fbd84261ec9376da6652038bf884eab6 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
