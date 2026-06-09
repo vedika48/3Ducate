@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:record/record.dart';
+import 'package:audioplayers/audioplayers.dart';
 import '../services/python_backend_service.dart';
 import '../services/audio_recorder_service.dart';
 
@@ -79,77 +79,79 @@ class _LearnScreenState extends State<LearnScreen> {
         title: const Text('Learn Phase'),
         backgroundColor: Colors.blueAccent,
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
-        child: Column(
-          children: [
-            // Recording Section
-            Card(
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Column(
-                  children: [
-                    const Text(
-                      'Practice Speaking',
-                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                    ),
-                    const SizedBox(height: 16),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        ElevatedButton(
-                          onPressed: _recorderService.isRecording ? null : _startRecording,
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.green,
-                            foregroundColor: Colors.white,
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              // Recording Section
+              Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    children: [
+                      const Text(
+                        'Practice Speaking',
+                        style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                      ),
+                      const SizedBox(height: 16),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          ElevatedButton(
+                            onPressed: _recorderService.isRecording ? null : _startRecording,
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green,
+                              foregroundColor: Colors.white,
+                            ),
+                            child: const Text('Start Recording'),
                           ),
-                          child: const Text('Start Recording'),
-                        ),
-                        const SizedBox(width: 16),
-                        ElevatedButton(
-                          onPressed: _recorderService.isRecording ? _stopRecording : null,
-                          style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.red,
-                            foregroundColor: Colors.white,
+                          const SizedBox(width: 16),
+                          ElevatedButton(
+                            onPressed: _recorderService.isRecording ? _stopRecording : null,
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.red,
+                              foregroundColor: Colors.white,
+                            ),
+                            child: const Text('Stop Recording'),
                           ),
-                          child: const Text('Stop Recording'),
-                        ),
-                      ],
-                    ),
-                    if (_isLoading) const CircularProgressIndicator(),
-                  ],
+                        ],
+                      ),
+                      if (_isLoading) const CircularProgressIndicator(),
+                    ],
+                  ),
                 ),
               ),
-            ),
 
-            const SizedBox(height: 20),
+              const SizedBox(height: 20),
 
-            // Example Phrases
-            Card(
-              child: Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    const Text(
-                      'Practice Phrases:',
-                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
-                    ),
-                    const SizedBox(height: 10),
-                    _buildPhraseButton('Hello, how are you?'),
-                    _buildPhraseButton('I would like a coffee'),
-                    _buildPhraseButton('How much does it cost?'),
-                    _buildPhraseButton('Thank you very much'),
-                  ],
+              // Example Phrases
+              Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      const Text(
+                        'Practice Phrases:',
+                        style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                      ),
+                      const SizedBox(height: 10),
+                      _buildPhraseButton('Hello, how are you?'),
+                      _buildPhraseButton('I would like a coffee'),
+                      _buildPhraseButton('How much does it cost?'),
+                      _buildPhraseButton('Thank you very much'),
+                    ],
+                  ),
                 ),
               ),
-            ),
 
-            const SizedBox(height: 20),
+              const SizedBox(height: 20),
 
-            // Results
-            if (_recognizedText.isNotEmpty) _buildResultsCard(),
-          ],
+              // Results
+              if (_recognizedText.isNotEmpty) _buildResultsCard(),
+            ],
+          ),
         ),
       ),
     );

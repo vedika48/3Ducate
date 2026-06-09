@@ -11,7 +11,6 @@ class TestScreen extends StatefulWidget {
 
 class _TestScreenState extends State<TestScreen> {
   final AudioRecorderService _recorderService = AudioRecorderService();
-  final PythonBackendService _backendService = PythonBackendService();
 
   final List<TestQuestion> _questions = [
     TestQuestion(

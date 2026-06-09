@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:record/record.dart';
 import 'package:path_provider/path_provider.dart';
 
@@ -7,23 +8,29 @@ class AudioRecorderService {
   factory AudioRecorderService() => _instance;
   AudioRecorderService._internal();
 
+  final AudioRecorder _audioRecorder = AudioRecorder();
   bool _isRecording = false;
   String? _currentPath;
 
   Future<bool> startRecording() async {
     try {
+      if (!await _audioRecorder.hasPermission()) {
+        return false;
+      }
       final directory = await getTemporaryDirectory();
       _currentPath = '${directory.path}/recording_${DateTime.now().millisecondsSinceEpoch}.wav';
 
-      await AudioRecorder.start(
-        path: _currentPath,
-        audioOutputFormat: AudioOutputFormat.WAV,
+      await _audioRecorder.start(
+        const RecordConfig(encoder: AudioEncoder.wav),
+        path: _currentPath!,
       );
 
       _isRecording = true;
       return true;
     } catch (e) {
-      print('Recording error: $e');
+      if (kDebugMode) {
+        print('Recording error: $e');
+      }
       return false;
     }
   }
@@ -32,15 +39,17 @@ class AudioRecorderService {
     if (!_isRecording) return null;
 
     try {
-      await AudioRecorder.stop();
+      final path = await _audioRecorder.stop();
       _isRecording = false;
 
-      if (_currentPath != null) {
-        return File(_currentPath!);
+      if (path != null) {
+        return File(path);
       }
       return null;
     } catch (e) {
-      print('Stop recording error: $e');
+      if (kDebugMode) {
+        print('Stop recording error: $e');
+      }
       return null;
     }
   }
