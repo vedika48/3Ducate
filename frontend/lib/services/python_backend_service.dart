@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 import 'package:web_socket_channel/web_socket_channel.dart';
 
@@ -61,7 +62,9 @@ class PythonBackendService {
       }
       return null;
     } catch (e) {
-      print('TTS error: $e');
+      if (kDebugMode) {
+        print('TTS error: $e');
+      }
       return null;
     }
   }
@@ -86,11 +89,15 @@ class PythonBackendService {
           onMessage(message);
         },
         onError: (error) {
-          print('WebSocket error: $error');
+          if (kDebugMode) {
+            print('WebSocket error: $error');
+          }
         },
       );
     } catch (e) {
-      print('WebSocket connection error: $e');
+      if (kDebugMode) {
+        print('WebSocket connection error: $e');
+      }
     }
   }
 

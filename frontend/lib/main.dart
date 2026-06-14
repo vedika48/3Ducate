@@ -11,7 +11,7 @@ class LanguageLearningApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Immersive Language Learning',
+      title: '3Ducate - Learn in 3D',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         useMaterial3: true,
